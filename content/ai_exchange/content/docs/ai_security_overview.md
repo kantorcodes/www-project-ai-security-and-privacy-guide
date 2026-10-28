@@ -476,7 +476,7 @@ This section highlights agentic attention points only — not a separate threat 
 - **Data access:** Purpose-bound, ephemeral agent context and classification enforcement live under [data limitation](/go/datalimit) ([#DATA MINIMIZE](/go/dataminimize), [#SHORT RETAIN](/go/shortretain)).
 - The attack surface is wide, and the potential impact should not be underestimated.
 - Because of that, the [known controls](/go/controlsoverview) become even more important, divided into:
-  - Prevention: for example: security of inter-model communication (e.g., MCP), [agent sandboxing](/go/agentsandboxing), [protecting of memory integrity](/go/augmentationdataintegrity), [prompt injection defenses](/go/promptinjection), and [agent message structure manipulation](/go/agentmessagestructuremanipulation)
+  - Prevention: for example: security of client-to-tool communication (e.g., MCP), [agent sandboxing](/go/agentsandboxing), [protecting of memory integrity](/go/augmentationdataintegrity), [prompt injection defenses](/go/promptinjection), and [agent message structure manipulation](/go/agentmessagestructuremanipulation)
   - Blast radius control: [rule-based / human oversight](/go/oversight) and [least model privilege](/go/leastmodelprivilege)
   - Observability: [monitoring](/go/monitoruse)
 - **Validation gap:** Tools and methods to evaluate agentic security architecture and deployments are still evolving; without reliable validation, design and implementation weaknesses are harder to find before production. See [testing](/go/testing) and [continuous validation](/go/continuousvalidation).
